@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ParentComponent from "./components/ParentComponent.vue";
 import VueCounterApp from "./components/VueCounterApp.vue";
 import VueTemplateRefDemo from "./components/VueTemplateRefDemo.vue";
 import VueWatchersDemo from "./components/VueWatchersDemo.vue";
@@ -10,4 +11,6 @@ import VueWatchersDemo from "./components/VueWatchersDemo.vue";
   <VueWatchersDemo />
   <div class="w-full border my-4"></div>
   <VueTemplateRefDemo />
+  <div class="w-full border my-4"></div>
+  <ParentComponent />
 </template>
