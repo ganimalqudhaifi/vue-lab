@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import VueCounterApp from "./components/VueCounterApp.vue";
+</script>
+
 <template>
-  <div>Hello World</div>
+  <VueCounterApp />
+  <div class="w-full border my-4" />
 </template>
